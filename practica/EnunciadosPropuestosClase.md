@@ -21,3 +21,13 @@ Crea un programa para que un usuario dé nombre a un aventurero que encuentre la
   la caja (usa métodos set y get).
 
 [Solución](caja_magica/Principal.java)
+
+## Gestión de biblioteca
+Eres parte de un equipo de desarrollo de software para una compañía de gestión de bibliotecas.
+Necesitas diseñar un sistema para manejar la información de libros prestados por los usuarios.
+
+Los detalles de los libros y usuarios deben estar protegidos y solo accesibles a través de métodos específicos.
+
+Además, se requiere abstracción para representar los préstamos de libros y su gestión
+
+[Solución](biblioteca/GestionBiblioteca.java)
