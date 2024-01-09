@@ -23,11 +23,22 @@ Crea un programa para que un usuario dé nombre a un aventurero que encuentre la
 [Solución](caja_magica/Principal.java)
 
 ## Gestión de biblioteca
-Eres parte de un equipo de desarrollo de software para una compañía de gestión de bibliotecas.
-Necesitas diseñar un sistema para manejar la información de libros prestados por los usuarios.
+Eres parte de un equipo de desarrollo de software para una compañía de gestión de bibliotecas. 
+Necesitas diseñar un sistema para manejar la información de libros prestados por los usuarios. 
 
-Los detalles de los libros y usuarios deben estar protegidos y solo accesibles a través de métodos específicos.
+Los detalles de los libros y usuarios deben estar protegidos y solo accesibles a través de métodos específicos. 
 
 Además, se requiere abstracción para representar los préstamos de libros y su gestión
 
 [Solución](biblioteca/GestionBiblioteca.java)
+
+# EJERCICIOS HERENCIA Y POLIMORFISMO
+
+## Crea estudiante
+
+A partir de la siguiente clase:
+
+![Clase persona](images/persona.png)
+
+Construye una clase 'Estudiante' con los atributos: nombre, edad y créditos matriculados. 
+Solo hace falta que imprima por pantalla la información indicada, si quieres modificar la información para que aparezca de forma diferente puedes hacerlo como quieras.
