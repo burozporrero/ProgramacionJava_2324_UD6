@@ -42,3 +42,26 @@ A partir de la siguiente clase:
 
 Construye una clase 'Estudiante' con los atributos: nombre, edad y créditos matriculados. 
 Solo hace falta que imprima por pantalla la información indicada, si quieres modificar la información para que aparezca de forma diferente puedes hacerlo como quieras.
+
+[Solución](estudiante/Main.java)
+
+## Crea estudiante 2
+
+La clase padre es la clase “Empleado”. Está clase contiene: un atributo privado “nombre” de tipo String que heredan el resto de clases. Un constructor por defecto, un constructor con parámetros que inicializa el nombre con el String que recibe, métodos “set” y “get” para el atributo nombre, un método toString() que devuelve el String “Empleado” + nombre.
+
+El resto de clases solo deben sobrescribir el método toString() en cada una de ellas y declarar el constructor adecuado de forma que cuando la ejecución de las siguientes instrucciones:
+
+    Empleado E1 = new Empleado("Rafa");
+    Directivo D1 = new Directivo("Mario");
+    Operario OP1 = new Operario("Alfonso");
+    Oficial OF1 = new Oficial("Luis");
+    Tecnico T1 = new Tecnico("Pablo");
+    System.out.println(E1);
+    System.out.println(D1);
+    System.out.println(OP1);
+    System.out.println(OF1);
+    System.out.println(T1);
+
+Den como resultado:
+
+![Diagrama clases](images/ejercicio_dayanara.png)
