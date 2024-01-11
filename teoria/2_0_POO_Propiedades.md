@@ -1,5 +1,18 @@
 # PROPIEDADES FUNDAMENTALES DE LA POO
 
+<!-- TOC -->
+* [PROPIEDADES FUNDAMENTALES DE LA POO](#propiedades-fundamentales-de-la-poo)
+  * [1. ABSTRACCIÓN](#1-abstracción)
+  * [2. ENCAPSULACIÓN Y OCULTACIÓN](#2-encapsulación-y-ocultación)
+    * [Ejercicios sobre Televisor:](#ejercicios-sobre-televisor)
+  * [3. HERENCIA](#3-herencia)
+    * [Clase Object](#clase-object)
+    * [REFERENCIA SUPER](#referencia-super-)
+    * [RECORDATORIO: Modificador Final](#recordatorio-modificador-final)
+  * [4. POLIMORFISMO](#4-polimorfismo)
+    * [CASTING](#casting)
+<!-- TOC -->
+
 ## 1. ABSTRACCIÓN
 
 Es el proceso mediante el cual se modela una entidad del mundo real (tangible), en forma de código, en este caso, Java, 
