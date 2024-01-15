@@ -45,9 +45,10 @@ Solo hace falta que imprima por pantalla la información indicada, si quieres mo
 
 [Solución](estudiante/Main.java)
 
-## Crea estudiante 2
+## Herencia de empleado
 
-La clase padre es la clase “Empleado”. Está clase contiene: un atributo privado “nombre” de tipo String que heredan el resto de clases. Un constructor por defecto, un constructor con parámetros que inicializa el nombre con el String que recibe, métodos “set” y “get” para el atributo nombre, un método toString() que devuelve el String “Empleado” + nombre.
+La clase padre es la clase “Empleado”. Esta clase contiene: un atributo privado “nombre” de tipo String que heredan 
+el resto de clases. Un constructor por defecto, un constructor con parámetros que inicializa el nombre con el String que recibe, métodos “set” y “get” para el atributo nombre, un método toString() que devuelve el String “Empleado” + nombre.
 
 El resto de clases solo deben sobrescribir el método toString() en cada una de ellas y declarar el constructor adecuado de forma que cuando la ejecución de las siguientes instrucciones:
 
@@ -65,3 +66,34 @@ El resto de clases solo deben sobrescribir el método toString() en cada una de 
 Den como resultado:
 
 ![Diagrama clases](images/ejercicio_dayanara.png)
+
+[Solución](herencia_empleado/GestionEmpleados.java)
+
+## Formas geométricas
+El objetivo de este ejercicio es aplicar el concepto de polimorfismo en Java para calcular áreas de diversas formas 
+geométricas. Se proporciona un esquema de clases que incluye una clase padre “FormaGeometrica” y varias clases hijas como
+“Circulo”, “Cuadrado”, y “Triangulo”.
+
+FormaGeometrica (Clase padre):
+- Contiene un atributo protegido “tipo” que indica el tipo de forma geométrica.
+- Tiene un método abstracto “calcularArea()” que deberá ser implementado por las subclases.
+- Incluye un método para mostrar información general sobre la forma geométrica.
+- En la clase principal, crea instancias de diferentes formas geométricas y muestra su información utilizando polimorfismo.
+- Ejecuta el programa y verifica que se calculen y muestren correctamente las áreas de las formas geométricas.
+
+[Solución](formas_geometricas/PruebaPolimorfismoFormas.java)
+
+## El parking
+
+Ejercicio para poner a prueba la comprensión de herencia y polimorfismo.
+
+Elaborar las clases necesarias, con la relación de herencia que se parezca lo máximo posible a la vida real, para 
+modelar vehiculos, vehiculos con motor, bicicletas(sin motor), coches y motos.
+
+Elaboremos también una clase Parking, con dos funcionalidades posibles: aparcar y dejarLibre. No es necesario 
+implementar su funcionalidad. Aparcar necesita como entrada el vehículo a aparcar y nos devuelve el número de la 
+plaza de aparcamiento donde se ha aparcado el vehículo. El método dejarLibre, necesita cómo parámetro de entrada el 
+número de la plaza que se va a liberar y retorna el vehículo que estaba aparcado en esa plaza.
+
+El main hará lo que cada uno quiera que haga, pero tratemos de buscar situaciones en las que tengamos que 
+utilizar el polimorfismo, el casting, uso de método getClass() e instanceOf. 
