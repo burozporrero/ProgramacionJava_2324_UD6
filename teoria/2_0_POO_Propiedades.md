@@ -106,6 +106,10 @@ A tener en cuenta:
 
 ![Ejemplo anterior en jerarquía](images/herenciaEmpresa.png)
 
+Veamos un ejemplo de que NO es herencia, ya que una clase, NO puede extender a dos clases diferentes:
+
+![Ejemplo de algo que no puede ser herencia](images/noherencia.png)
+
 ### Clase Object
 
 Todas las classes heredan de java.lang.Object. 
