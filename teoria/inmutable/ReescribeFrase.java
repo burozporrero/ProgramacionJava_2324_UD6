@@ -1,5 +1,6 @@
 package teoria.inmutable;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -28,6 +29,7 @@ public class ReescribeFrase {
 
         System.out.println("ARRAY == ARRAY2: " + (ARRAY == ARRAY2));
         System.out.println("ARRAY equals ARRAY2: " + (ARRAY.equals(ARRAY2)));
+        System.out.println("ARRAYS.equals(ARRAY, ARRAY2): " + (Arrays.equals(ARRAY,ARRAY2)));
         System.out.println("ARRAY[0] == ARRAY2[0]: " + (ARRAY[0] == ARRAY2[0]));
 
         for (int i = ARRAY.length - 1; i > 0; i--) {
@@ -43,6 +45,7 @@ public class ReescribeFrase {
         System.out.println("\nDespués de alterar las posiciones del array: ");
         System.out.println("ARRAY == ARRAY2: " + (ARRAY == ARRAY2));
         System.out.println("ARRAY equals ARRAY2: " + (ARRAY.equals(ARRAY2)));
+        System.out.println("ARRAYS.equals(ARRAY, ARRAY2): " + (Arrays.equals(ARRAY,ARRAY2)));
         System.out.println("ARRAY[0] == ARRAY2[0]: " + (ARRAY[0] == ARRAY2[0]));
 
         // ARRAY = new char[3];

@@ -33,12 +33,12 @@ estructura ni los datos que contiene.
 Vamos a entender primero por qué String es una clase inmutable en Java y nos los explican muy bien en ["Like a 
 shark"](https://www.youtube.com/watch?v=XtrFCtsXSl0)
 
-Veamos un ejemplo propio:
-[Demo String inmutable](inmutable/StringInmutable.java)
-
 __NOTA:__ Todos los datos de tipo primitivo son inmutables en java.
 
 Por contra, todos los OBJETOS en Java, son MUTABLES, pero, se pueden construir de forma INMUTABLE.
+
+Veamos un ejemplo propio:
+[Demo String inmutable](inmutable/StringInmutable.java)
 
 Aplicar un modificador FINAL por sí solo, no garantiza que el objeto sea inmutable. Aunque una variable de tipo 
 objeto, se cree como constante con FINAL, no podremos reasignarle un valor, es decir, no podremos modificar la 
@@ -74,11 +74,5 @@ Veamos más ejemplos de clases inmutables que contienen Arrays y ArrayList:
 - [Arrays inmutables en Aula en la nube](https://www.youtube.com/watch?v=5CX4PiQUP5k&list=PLG1qdjD__qH6ULjW5iN8E45m5nkaCNbUu&index=113)
 - [ArrayList inmutables en Aula en la nube](https://www.youtube.com/watch?v=ua7OoQKsdRQ&list=PLG1qdjD__qH6ULjW5iN8E45m5nkaCNbUu&index=115&t=324s)
 
-Para aquellos que tengan más curiosidad y entrar en mayor detalle sobre la clonación me ha parecido muy interesante 
+Para aquellos que tengan más curiosidad y entrar en mayor detalle sobre la clonación, es muy interesante 
 [esta página](https://www.digitalocean.com/community/tutorials/java-clone-object-cloning-java)
-
-# CARDINALIDAD DE OBJETOS
-
-La cardinalidad de objetos viene dada
-
-Explicado de forma muy detallada por [Aula en la nube](https://www.youtube.com/watch?v=r-H3VYQujgo&list=PLG1qdjD__qH6ULjW5iN8E45m5nkaCNbUu&index=100)

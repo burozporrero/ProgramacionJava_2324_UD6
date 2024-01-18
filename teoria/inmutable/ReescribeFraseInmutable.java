@@ -25,8 +25,10 @@ public class ReescribeFraseInmutable {
 
         System.out.println("listChars4 == listChars2: " + (listChars4 == listChars2));
         System.out.println("listChars4 equals listChars2: " + (listChars4.equals(listChars2)));
+
         System.out.println("listChars4 == listChars3: " + (listChars4 == listChars3));
         System.out.println("listChars4 equals listChars3: " + (listChars4.equals(listChars3)));
+
 
         for (int i = listChars.size() - 1; i > 0; i--) {
 
