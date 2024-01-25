@@ -111,3 +111,24 @@ utilizar el polimorfismo, el casting, uso de método getClass() e instanceOf.
 [Solución](polimorfismo/melissa_parking/Principal.java)
 [Solución](polimorfismo/hugo_parking/ControlParkimetro.java)
 [Solución](polimorfismo/angel_parking/Parking.java)
+
+# EJERCICIOS STRINGBUILDER y STRINGBUFFER
+
+## Concatenando palabras
+
+Escribe un programa que pida una lista de palabras y utilizando ‘StringBuilder’ concatenar todas las palabras para
+finalmente mostrar por pantalla el resultado.
+
+## Snake case
+
+Escribe un programa que recoja una cadena en formato Camel Case y utilizando StringBuilder convertirla a Snake Case.
+
+Ejemplo: nuevoMensajeOculto  nuevo_mensaje_oculto
+
+## Capicua
+
+Escribe un programa que compruebe si un número es capicúa utilizando StringBuffer.
+
+## Yellow sun
+
+Escribe un programa que elimine los seis primeros caracteres de la cadena “Yellow Sun” mediante el uso de StringBuffer.
